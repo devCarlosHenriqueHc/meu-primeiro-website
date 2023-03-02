@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white; 
+  display: flex;   
+}
+
+
+/****MENU****/
+
+
+#main-menu a{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  font-size: 17px solid;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#main-menu li{
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-top: 15px;
+  
+}
+
+#main-menu {
+  float: left;
+  margin-left: 20%;
+  margin-top: 0;  
+}
+
+
+/**CONTEUDO**/
+
+img {
+  width: 500px;
+}
+
+#img, #main-content  {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+
