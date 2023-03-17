@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sorriso Feliz</title>
-  <link rel="stylesheet" href="styleIndex.css">
-</head>
-<body>
-  <main>
-    <div> <!--PRINCIPAL-->
-        <div id="menu"> <!--Inicio menu-->
-            
-            <ul id="main-menu">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Agende sua consulta</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-           
-        </div><!--Final menu-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorriso Feliz</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
 
-        <div id="main-content">
-            <h1>Sorriso Colgate</h1>
-            <h2>Odontologia</h2>
-            <P>Fique livre da sua sogra!</P>
-            <p>Tratamentos de canal, <br>restaurações, aparelho dental, <br>clareamento, protese e estração de dente.</p>
-            <p>Cuide do seu sorriso...</p>
-            <button >Mais Informações</button>
-        </div>
+    <header class="cabecalho">
+      <nav class="cabecalho-menu">
+          <a id="home" class="cabecalho-menu-item">Home</a>
+          <a class="cabecalho-menu-item">Read More</a>
+          <a class="cabecalho-menu-item">Contact</a>
+          <a class="cabecalho-menu-item">Sign Up</a>
+      </nav>
+  </header>
 
-        <div id="img"><img class="img" 
-            src="Odontologia.jpg">
-        </div>        
-    </div><!--Final Principal-->
+  <main class="conteudo-principal">
+    <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Sorriso Colgate</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Odontologia</h2>
+        <p class="texto">Transforme seu sorriso! Tratamentos de canal, <br>restaurações, aparelho dental, clareamento,<br> protese e extração de dente.</p>
+        <button class="conteudo-principal-escrito-botao">Read More</button>
+    </div>
+    <img class="conteudo-principal-imagem" src="img/odontologia.jpg" alt="odontologia"/>
+  </main>
 
-</main>
-  
-</body>
+  <footer class="rodape">
+    <img class="rodape-imagem" src="img/dente.png" alt="Dente"/>
+</footer>
+
+  </body>
 </html>
